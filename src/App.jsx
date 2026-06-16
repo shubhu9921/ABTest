@@ -13,7 +13,7 @@ function App() {
   const [isProtocolModalOpen, setIsProtocolModalOpen] = useState(false);
   const [isPlanUpgradeModalOpen, setIsPlanUpgradeModalOpen] = useState(false);
   const [upgradePlanType, setUpgradePlanType] = useState('1-month');
-  const [currentView, setCurrentView] = useState('checkout'); // Default landing page
+  const [currentView, setCurrentView] = useState('alternative'); // Default landing page
 
   const handleContinue = (action) => {
     console.log('User action:', action);
